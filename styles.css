@@ -1,0 +1,136 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .header h1 {
+    font-size: 3rem;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #ff7f50;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff6347;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .features h2 {
+    margin-bottom: 20px;
+  }
+  
+  .feature {
+    margin-bottom: 30px;
+  }
+  
+  .feature h3 {
+    font-size: 1.5rem;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    margin-bottom: 20px;
+  }
+  
+  .testimonial {
+    margin-bottom: 20px;
+  }
+  
+  .testimonial p {
+    font-style: italic;
+  }
+  
+  .testimonial span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Call-to-Action Section */
+  .cta {
+    padding: 50px 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  .cta h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header h1 {
+      font-size: 2rem;
+    }
+  
+    .feature {
+      margin-bottom: 20px;
+    }
+  
+    .cta-button {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header h1 {
+      font-size: 1.5rem;
+    }
+  
+    .features, .testimonials, .cta {
+      padding: 30px 15px;
+    }
+  }
+  
